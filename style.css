@@ -1,0 +1,99 @@
+body {
+  font-family: "Poppins", sans-serif;
+  line-height: 1.5;
+  background-color: #fff;
+  color: #333;
+  margin: 0;
+}
+
+header {
+  position: fixed;
+  top: 20px;
+  left: 30px;
+}
+
+.name {
+  position: fixed;
+  top: 45%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  background-color: #fff;
+  padding: 30px 80px;
+}
+
+.name h1 {
+  font-size: 36px;
+  letter-spacing: 3px;
+  margin: 0 auto;
+}
+
+.name p {
+  font-size: 16px;
+  margin: 5 0;
+}
+
+section {
+  height: 100vh;
+  background-image: url(images/pattern-01.png);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.pattern-2 {
+  background-image: url(images/pattern-02.png);
+}
+
+.pattern-3 {
+  background-image: url(images/pattern-03.png);
+}
+
+.pattern-4 {
+  background-image: url(images/pattern-04.png);
+}
+
+.pattern-5 {
+  background-image: url(images/pattern-05.png);
+}
+
+.pattern-6 {
+  background-image: url(images/pattern-06.png);
+}
+
+.pattern-7 {
+  background-image: url(images/pattern-07.png);
+}
+
+.pattern-8 {
+  background-image: url(images/pattern-08.png);
+}
+
+.pattern-9 {
+  background-image: url(images/pattern-09.png);
+}
+
+.pattern-10 {
+  background-image: url(images/pattern-10.png);
+}
+
+
+
+footer {
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+  margin-right: 10px;
+  transition: all 0.5s;
+}
+
+footer a:hover {
+  opacity: .5;
+}
